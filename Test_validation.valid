@@ -1,0 +1,14 @@
+{
+	"customActions": [],
+	"validations": [
+		{
+			"triggerType": "element",
+			"validationType": "element",
+			"disabled": false,
+			"passType": "pass",
+			"name": "Test_Validation",
+			"match": "span(\"Ruby on Rails Baseball Jersey\")",
+			"target": "link(\"Home\")"
+		}
+	]
+}
