@@ -27,40 +27,6 @@
     <step action='log' value='var1' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='262e6354-70b9-4ac9-b983-438c5258e004' uiType='base'>
       <dialect type='sahi'></dialect>
     </step>
-    <step action='if' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='78558001-baa3-4515-b43c-febe943ea26f' uiType='conditional'>
-      <dialect type='sahi'>
-        <accessor type='unknown' value='verifyContainsText(span(any("Ruby on Rails Tote", "info")));' selected='true' fallback='true'></accessor>
-        <accessor type='unknown' value='verifyContainsText(span(any("Ruby on Rails Tote", "info"),("Ruby on Rails Bag", "info")));' selected='false' fallback='true'></accessor>
-        <accessor type='unknown' value='verifyContainsText(span(any("Ruby on Rails Tote", "info"),("Ruby on Rails Bag", "info")))' selected='false' fallback='true'></accessor>
-        <accessor type='unknown' value='verifyContainsText(span(any("Ruby on Rails Tote", "info"),("Ruby on Rails Tote", "info")))' selected='false' fallback='true'></accessor>
-        <accessor type='unknown' value='verifyContainsText(span(any("Ruby on Rails Tote", "info")))' selected='false' fallback='true'></accessor>
-        <accessor type='unknown' value='verifyContainsText(span(any("Ruby on Rails Tote", "Info")))' selected='false' fallback='true'></accessor>
-        <accessor type='unknown' value='verifyContainsText(span(any("Ruby on Rails Tote", "Info")),' selected='false' fallback='true'></accessor>
-        <accessor type='unknown' value='verifyCointainsText(any("Ruby on Rails Tote", "Info")),...' selected='false' fallback='true'></accessor>
-        <accessor type='unknown' value='verifyCointainsText(any("Ruby on Rails Tote", "Info")),' selected='false' fallback='true'></accessor>
-        <accessor type='unknown' value='verifyCointainsText(any("Ruby on Rails Tote", "Info"))' selected='false' fallback='true'></accessor>
-        <accessor type='unknown' value='' selected='false' fallback='true'></accessor>
-      </dialect>
-    </step>
-    <step action='store' value='true' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='1' isVisible='true' parentId='' uid='e8765e5e-b0cb-4ef8-b1b0-a158d209ac96' uiType='base'>
-      <dialect type='sahi'>
-        <accessor type='unknown' value='var2' selected='true' fallback='true'></accessor>
-      </dialect>
-    </step>
-    <step action='else' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='d9f27ba5-88b6-44d0-b514-5266eb6424b2' uiType='conditional'>
-      <dialect type='sahi'></dialect>
-    </step>
-    <step action='store' value='false' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='1' isVisible='true' parentId='' uid='d61c7f82-e46b-4997-8bae-3c4607bd2227' uiType='base'>
-      <dialect type='sahi'>
-        <accessor type='unknown' value='var2' selected='true' fallback='true'></accessor>
-      </dialect>
-    </step>
-    <step action='endif' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='e7b04466-2f10-4e54-a57b-6d5b1afb3643' uiType='end' sibling='d9f27ba5-88b6-44d0-b514-5266eb6424b2'>
-      <dialect type='sahi'></dialect>
-    </step>
-    <step action='log' value='var2' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='57a02ab9-786b-4645-ba56-a2f681e8b565' uiType='base'>
-      <dialect type='sahi'></dialect>
-    </step>
     <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='fe506469-7a57-4612-9302-9367e0bd4df4' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='span(0, _in(div("product_1")))' selected='true' fallback='true'></accessor>
