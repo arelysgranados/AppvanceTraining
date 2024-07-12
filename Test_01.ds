@@ -4,9 +4,7 @@
     <fallback useFallback='true'></fallback>
     <shadowDOM useShadowDOM='true'></shadowDOM>
     <step action='navigateTo' value='"https://demosite.appvance.net/"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='aa503feb-f5bf-4e5e-a882-cef0fc85df76' uiType='base'>
-      <dialect type='sahi'>
-        <accessor type='unknown' value='' selected='true' fallback='false'></accessor>
-      </dialect>
+      <dialect type='sahi'></dialect>
     </step>
     <step action='if' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='3d87f61d-1b33-4758-8630-2608ccdb300a' uiType='conditional'>
       <dialect type='sahi'>
@@ -154,9 +152,7 @@
       </dialect>
     </step>
     <step action='navigateTo' value='"https://demosite.appvance.net/cart?variant_id=7"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='323abc37-0a59-4e68-89c0-3ff42ba52aed' uiType='base'>
-      <dialect type='sahi'>
-        <accessor type='unknown' value='' selected='true' fallback='false'></accessor>
-      </dialect>
+      <dialect type='sahi'></dialect>
     </step>
     <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='9b960bbe-0d73-4256-90f2-e83f7b084c00' uiType='base'>
       <dialect type='sahi'>
@@ -209,7 +205,12 @@
         <accessor type='Attribute' value='submit({&apos;id&apos;:&apos;add-to-cart-button&apos;})' selected='false' fallback='false'></accessor>
       </dialect>
     </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='2890b371-c24c-4b9a-9407-a4055cb8a03c' uiType='base'>
+    <step action='include' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='7695d987-b092-42f3-9c40-34767c6e9025' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='filePath' value='"{ds}/Library.ds"' selected='true' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='2890b371-c24c-4b9a-9407-a4055cb8a03c' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='submit(1, _in(form("update-cart")))' selected='true' fallback='true'></accessor>
         <accessor type='Parent' value='submit(1, _in(form({&apos;id&apos;:&apos;update-cart&apos;})))' selected='false' fallback='true'></accessor>
@@ -228,7 +229,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;button[name="checkout"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='setValue' value='"demo@gmail.com"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='48fc6ab9-c8cf-4f57-93c3-ee4f4dfa8c35' uiType='base'>
+    <step action='setValue' value='"demo@gmail.com"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='48fc6ab9-c8cf-4f57-93c3-ee4f4dfa8c35' uiType='base'>
       <dialect type='sahi'>
         <accessor type='XPathId' value='byXPath(&apos;//*[@id="order_email"]&apos;)' selected='true' fallback='true'></accessor>
         <accessor type='AttrClass' value='emailbox("form-control title")' selected='false' fallback='true'></accessor>
@@ -244,7 +245,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;input[name="order[email]"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='4c08a5be-0b99-4e94-acb6-5ee95713fa8c' uiType='base'>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='4c08a5be-0b99-4e94-acb6-5ee95713fa8c' uiType='base'>
       <dialect type='sahi'>
         <accessor type='AttrClass' value='submit("btn btn-block btn-lg btn-success[1]")' selected='true' fallback='true'></accessor>
         <accessor type='AttrName' value='submit("commit[1]")' selected='false' fallback='true'></accessor>
