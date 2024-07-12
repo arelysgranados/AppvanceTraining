@@ -29,7 +29,10 @@
     </step>
     <step action='if' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='78558001-baa3-4515-b43c-febe943ea26f' uiType='conditional'>
       <dialect type='sahi'>
-        <accessor type='unknown' value='verifyCointainsText(any("Ruby on Rails Tote", "Info")),' selected='true' fallback='true'></accessor>
+        <accessor type='unknown' value='verifyContainsText(span(any("Ruby on Rails Tote", "Info")))' selected='true' fallback='true'></accessor>
+        <accessor type='unknown' value='verifyContainsText(span(any("Ruby on Rails Tote", "Info")),' selected='false' fallback='true'></accessor>
+        <accessor type='unknown' value='verifyCointainsText(any("Ruby on Rails Tote", "Info")),...' selected='false' fallback='true'></accessor>
+        <accessor type='unknown' value='verifyCointainsText(any("Ruby on Rails Tote", "Info")),' selected='false' fallback='true'></accessor>
         <accessor type='unknown' value='verifyCointainsText(any("Ruby on Rails Tote", "Info"))' selected='false' fallback='true'></accessor>
         <accessor type='unknown' value='' selected='false' fallback='true'></accessor>
       </dialect>
