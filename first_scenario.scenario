@@ -32,7 +32,7 @@
     <resource name="Test_01.ds" type="ds" path="{scenario}/Test_01.ds"/>
   </resources>
   <testnodes>
-    <node name="localhost" location="https://training.appvance.net:/TMServer/ws/TestNode"/>
+    <node name="localhost" location="https://training.appvance.net:/TMServer/ws/TestNode" username="Arelys_Granados_CAYUSE@appvance.com" password="AppvanceSH93847573*A"/>
   </testnodes>
   <bundles>
     <bundle name="hibernate" version="3.0"/>
