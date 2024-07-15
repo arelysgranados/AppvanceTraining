@@ -1,0 +1,29 @@
+{
+    "customTags": [],
+    "extractors": [],
+    "validators": [],
+    "threshold": 0.75,
+    "actions": [],
+    "smartTags": [{
+        "singleton": false,
+        "scanOnePerPage": false,
+        "extractors": [],
+        "validators": [],
+        "methods": {},
+        "scanOncePerApp": false,
+        "rules": [{
+            "failures": 0,
+            "successes": 0,
+            "weight": 100,
+            "type": "attrContainsValue",
+            "value": "classAPPVANCESPLITTERlist-group-item"
+        }],
+        "type": "Navigation",
+        "tags": ["a"],
+        "name": "st_products",
+        "disabled": false,
+        "category": "Rule",
+        "actions": [],
+        "info": {}
+    }]
+}
