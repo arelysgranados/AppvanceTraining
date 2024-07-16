@@ -29,10 +29,10 @@
     <userinfo/>
   </basics>
   <resources>
-    <resource name="Pen_Test.ds" type="ds" path="{scenario}/Pen_Test.ds"/>
+    <resource name="Pen_Test.ds" type="ds" path="{scenario}/../Pen_Test.ds"/>
   </resources>
   <testnodes>
-    <node name="localhost" location="https://training.appvance.net:/TMServer/ws/TestNode"/>
+    <node name="localhost" location="https://training.appvance.net:/TMServer/ws/TestNode" username="Arelys_Granados_CAYUSE@appvance.com" password="AppvanceSH93847573*A"/>
   </testnodes>
   <bundles>
     <bundle name="hibernate" version="3.0"/>
@@ -84,8 +84,8 @@
       <opt name="RampDownSeconds" value="0"/>
       <opt name="MaxRampDownTime" value="0"/>
       <opt name="tolerance" value="0"/>
-      <opt name="global_concurrent_users" value="1"/>
-      <opt name="testnode_concurrent_users" value="1"/>
+      <opt name="global_concurrent_users" value="0"/>
+      <opt name="testnode_concurrent_users" value="0"/>
     </options>
     <options type="commandline">
       <opt name="async" value="false"/>
@@ -122,6 +122,9 @@
     </options>
     <options type="jira">
       <opt name="useJira" value="false"/>
+      <opt name="jiraIssueTypes" value="[object Object]"/>
+      <opt name="jiraFailure" value="[object Object]"/>
+      <opt name="jiraSuccess" value="[object Object]"/>
     </options>
     <options type="lr">
       <opt name="saveCompleteLrOutputLog" value="false"/>
@@ -144,11 +147,6 @@
       <round iterations="1" totalusers="1"/>
     </controller>
     <testcase name="Testcase1" importance="normal">
-      <test>
-        <run name="Untitled1" langtype="ds3" resource="Pen_Test.ds" method="ds" testclass="Chrome"/>
-      </test>
-    </testcase>
-    <testcase name="Testcase2" importance="normal">
       <test>
         <run name="Untitled1" langtype="ds3" resource="Pen_Test.ds" method="ds" testclass="Chrome"/>
       </test>
