@@ -127,6 +127,19 @@
         <accessor type='JQuery' value='byJQuery(&apos;a[href="/381857241695163516512126767836119635755/snippets.gtl"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='0cc1b3e5-1fc4-472a-bcc6-87b09455808c' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='link(2, _in(span("menu-left")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='link(2, _in(span({&apos;id&apos;:&apos;menu-left&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='AttrHref' value='link("/611945764335379287057233465434727527159/newsnippet.gtl")' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='link("New Snippet")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//span[@id=&apos;menu-left&apos;]/a[3]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathText' value='byXPath(&apos;//*[text()="New Snippet"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/span/a[3]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;menu-left&apos;)/a[3]")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;a[href="/611945764335379287057233465434727527159/newsnippet.gtl"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
     <step action='setValue' value='"Test"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='d032f039-5f9d-4425-b0af-990a30ad3744' uiType='base'>
       <dialect type='sahi'>
         <accessor type='XPathName' value='byXPath(&apos;//*[@name="snippet"]&apos;)' selected='true' fallback='true'></accessor>
