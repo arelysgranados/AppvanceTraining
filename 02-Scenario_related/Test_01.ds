@@ -4,26 +4,30 @@
     <fallback useFallback='true'></fallback>
     <shadowDOM useShadowDOM='true'></shadowDOM>
     <step action='navigateTo' value='"https://demosite.appvance.net/"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='aa503feb-f5bf-4e5e-a882-cef0fc85df76' uiType='base'>
-      <dialect type='sahi'></dialect>
+      <dialect type='sahi'>
+        <accessor type='unknown' value='' selected='true' fallback='false'></accessor>
+      </dialect>
     </step>
-    <step action='if' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='3d87f61d-1b33-4758-8630-2608ccdb300a' uiType='conditional'>
+    <step action='if' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='3d87f61d-1b33-4758-8630-2608ccdb300a' uiType='base'>
       <dialect type='sahi'>
         <accessor type='unknown' value='assertTextPresent("Rails");' selected='true' fallback='true'></accessor>
         <accessor type='unknown' value='assertTextPresent("Rails")' selected='false' fallback='true'></accessor>
-        <accessor type='unknown' value='' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='store' value='true' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='1' isVisible='true' parentId='' uid='bf297d10-9d70-4fdb-a150-644042f314a9' uiType='base'>
+    <step action='store' value='true' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='bf297d10-9d70-4fdb-a150-644042f314a9' uiType='base'>
       <dialect type='sahi'>
         <accessor type='unknown' value='var1' selected='true' fallback='true'></accessor>
-        <accessor type='unknown' value='' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='endif' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='34c945cd-c863-46c8-9382-fb5aec13057b' uiType='end' sibling='3d87f61d-1b33-4758-8630-2608ccdb300a'>
-      <dialect type='sahi'></dialect>
+    <step action='endif' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='34c945cd-c863-46c8-9382-fb5aec13057b' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='unknown' value='' selected='true' fallback='false'></accessor>
+      </dialect>
     </step>
     <step action='log' value='var1' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='262e6354-70b9-4ac9-b983-438c5258e004' uiType='base'>
-      <dialect type='sahi'></dialect>
+      <dialect type='sahi'>
+        <accessor type='unknown' value='' selected='true' fallback='false'></accessor>
+      </dialect>
     </step>
     <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='fe506469-7a57-4612-9302-9367e0bd4df4' uiType='base'>
       <dialect type='sahi'>
@@ -42,6 +46,19 @@
         <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/div/div/a/span&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='Attribute' value='span({&apos;itemprop&apos;:&apos;name&apos;})' selected='false' fallback='false'></accessor>
         <accessor type='Attribute' value='span({&apos;title&apos;:&apos;Ruby on Rails Tote&apos;})' selected='false' fallback='false'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='ce21406a-6bea-48e2-abb0-2001ec70a6bc' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='image(0, _in(div("main-image")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='image(0, _in(div({&apos;id&apos;:&apos;main-image&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='AttrAlt' value='image("Ruby on Rails Tote")' selected='false' fallback='true'></accessor>
+        <accessor type='Src' value='image("https://demosite.appvance.net/spree/products/21/product/ror_tote.jpeg?1527769324")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;main-image&apos;]/div/img")' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div/div/div/div/div/img&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;main-image&apos;)/div[@class=&apos;panel-body text-center&apos;]/img[1]")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='image({&apos;itemprop&apos;:&apos;image&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;img[alt="Ruby on Rails Tote"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
     <step action='setValue' value='"2"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='921aa3ec-4d00-43b6-9505-dbc0cf552790' uiType='base'>
@@ -152,7 +169,9 @@
       </dialect>
     </step>
     <step action='navigateTo' value='"https://demosite.appvance.net/cart?variant_id=7"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='323abc37-0a59-4e68-89c0-3ff42ba52aed' uiType='base'>
-      <dialect type='sahi'></dialect>
+      <dialect type='sahi'>
+        <accessor type='unknown' value='' selected='true' fallback='false'></accessor>
+      </dialect>
     </step>
     <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='9b960bbe-0d73-4256-90f2-e83f7b084c00' uiType='base'>
       <dialect type='sahi'>
@@ -207,7 +226,7 @@
     </step>
     <step action='include' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='7695d987-b092-42f3-9c40-34767c6e9025' uiType='base'>
       <dialect type='sahi'>
-        <accessor type='filePath' value='"{ds}/Library.ds"' selected='true' fallback='true'></accessor>
+        <accessor type='unknown' value='"{ds}/Library.ds"' selected='true' fallback='true'></accessor>
       </dialect>
     </step>
     <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='2890b371-c24c-4b9a-9407-a4055cb8a03c' uiType='base'>
