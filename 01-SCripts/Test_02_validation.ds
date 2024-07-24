@@ -4,10 +4,14 @@
     <fallback useFallback='true'></fallback>
     <shadowDOM useShadowDOM='true'></shadowDOM>
     <step action='navigateTo' value='"https://demosite.appvance.net/"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='c9da6a8c-84df-4685-bb8c-b9ce8fcc603d' uiType='base'>
-      <dialect type='sahi'></dialect>
+      <dialect type='sahi'>
+        <accessor type='unknown' value='' selected='true' fallback='false'></accessor>
+      </dialect>
     </step>
     <step action='addValidationsWorkbench' value='"{ds}/../Test_validation.valid"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='324afab0-638a-4eaf-91e8-f1a7503d6cf1' uiType='base'>
-      <dialect type='sahi'></dialect>
+      <dialect type='sahi'>
+        <accessor type='unknown' value='' selected='true' fallback='false'></accessor>
+      </dialect>
     </step>
     <step action='assertContainsText' value='"Ruby on Rails Tote"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='229ed6fe-7455-4990-a0fc-4c6866cdc32c' uiType='base'>
       <dialect type='sahi'>
@@ -31,7 +35,6 @@
     <step action='clickXY' value='"0,0"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='05733c4a-fc8f-4254-a36e-ff26bd30176b' uiType='base'>
       <dialect type='sahi'>
         <accessor type='unknown' value='image(0_in(div("product_1")))' selected='true' fallback='true'></accessor>
-        <accessor type='unknown' value='' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
     <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='82e035c9-e660-4bff-bd4b-719e0cf13e91' uiType='base'>
