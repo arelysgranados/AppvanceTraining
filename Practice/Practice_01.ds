@@ -79,9 +79,6 @@
     <step action='' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='1' isVisible='true' parentId='' uid='ac9d04f9-8cd7-4d6d-8007-05334d8a61ea' uiType='base'>
       <dialect type='sahi'></dialect>
     </step>
-    <step action='endif' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='ba088170-e4b1-4fdf-b1b9-3e7f7faed960' uiType='end' sibling='c7bf6660-ae10-4987-a6e5-86177451d8ee'>
-      <dialect type='sahi'></dialect>
-    </step>
     <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='07c70741-5cbf-4978-a483-c6b5a10fedb5' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='link(0, _in(listItem("link-to-cart")))' selected='true' fallback='true'></accessor>
